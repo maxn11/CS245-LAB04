@@ -31,7 +31,7 @@ public class Lab04 {
 	 */
 	public static int findFactors(List<List<Integer>> arrList, int n, int i) {
 		//base case
-		if(i == n) {
+		if(i == n || i == 0) {
 			return n;
 		}
 		//check if i is still less than n
